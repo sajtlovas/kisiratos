@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	<link rel="shortcut icon" href=https://upload.wikimedia.org/wikipedia/commons/7/78/ROU_AR_Dorobanti_CoA.jpg type="image/jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link href="style2.css" rel="stylesheet" type="text/css"/>
+    <title>Kisiratos Kalauz</title>
+</head>
+<body>
+
+    <header>
+        <h1>Kisiratos</h1>
+    </header>
+
+    <nav>
+        <a href="kisiratos.html">Kisiratos</a>
+        <a href="kapcsolat.html">Kapcsolat</a>	
+        <a href="#lehetosegek">Lehetőségek</a>
+    </nav>
+
+</body>
+
+       <div class="content">
+        <section id="kisiratos">
+            <h2>Kapcsolat</h2>
+            <p>
+                Add meg az adataidat 
+            </p>
+        </section>
+    </div>
+	<br/>
+
+    <form action="adatbazis_lementes.php" method="post">
+        <label for="name">Neved (kötelező):</label>
+        <input type="text" id="name" name="name" required>
+		<br/>
+
+        <label for="email">Email címed (kötelező):</label>
+        <input type="email" id="email" name="email" required>
+		<br/>
+
+        <label for="subject">Tárgy:</label>
+        <input type="text" id="subject" name="subject">
+		<br/>
+		<br/>
+		
+        <label for="message">Az üzeneted:</label>
+		<br/>
+        <textarea id="message" name="message" rows="4" required></textarea>
+		<br/>
+        <input type="submit" value="Küldés">
+		
+    </form>
+	
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+
+    <footer>
+        <p>&copy; 2025 Szellelki SRL. Minden jog fenntartva.</p>
+    </footer>
+
+</body>
+</html>
